@@ -1,13 +1,22 @@
 ---
 title: Writing a New Post
-author: cotes
-date: 2019-08-08 14:10:00 +0800
-categories: [Blogging, Tutorial]
-tags: [writing]
+date: 2019-08-08 14:10:00 +0900
+categories: [카테고리1, 카테고리2, 카테고리3]
+tags: [한글태그길게써보자어디까지써지나더길게더길게쭉쭈욱쭉쭉]
 render_with_liquid: false
 ---
 
 This post will guide you how to write a post on _Chirpy_ theme. Even if you have previous experience with Jekyll, this article is worth reading, because many features require specific variables to be set.
+
+ 실수가 엄밀하게 구성되기 이전에는, 유리수체가 길이를 표현하는 최선의 수 집합이었다. 그러나 유리수체와 직선을 비교하면 유리수체에 틈이 존재한다는 사실을 알게 된다. 반면에 직선은 아무런 틈이 없이 매끈하게 연결되어 있다. 직선과 수 집합의 일대일대응이 이루어지기 위해서는 수 또한 연속적인 성질을 가져야 한다. 그리하면 가장 중요한 질문에 도달하게 된다. 과연 연속성의 본질이란 무엇인가? 극미한 부분에서도 연결이 끊어지지 않고 이어져 있다.. 따위의 모호한 답변으로는 연속체 탐구에 아무런 도움이 되지 않는다.  $ \sum_1^2 f(x)=1 $ 문장
+
+
+$$
+\sum_1^2 f(x)=1
+$$
+
+
+가로로 놓인 [직선](https://aerospacekim.tistory.com/)위의 한 점을 생각해보자. 그 점은 분명히 직선을 두 부분으로 나눈다. 이렇게 나누어진 두 반직선을 생각할 때, 왼쪽 부분에 속하는 점은 항상 다른 쪽 부분에 속하는 점의 왼쪽에 위치한다. 바로 이 명제의 역에서 연속의 본질을 규정하는 원리가 발견되었다. 그 원리란 다음과 같다.
 
 ## Naming and Path
 
@@ -15,7 +24,11 @@ Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in 
 
 ## Front Matter
 
-Basically, you need to fill the [Front Matter](https://jekyllrb.com/docs/front-matter/) as below at the top of the post:
+Basically, you need to fill the [Front Matter](https://jekyllrb.com/docs/front-matter/) as below at
+
+[frone]: 
+
+ the top of the post:
 
 ```yaml
 ---
@@ -27,7 +40,7 @@ tags: [TAG]     # TAG names should always be lowercase
 ```
 
 > The posts' _layout_ has been set to `post` by default, so there is no need to add the variable _layout_ in the Front Matter block.
-{: .prompt-tip }
+> {: .prompt-tip }
 
 ### Timezone of Date
 
@@ -73,7 +86,7 @@ authors: [<author1_id>, <author2_id>]   # for multiple entries
 Having said that, the key `author` can also identify multiple entries.
 
 > The benefit of reading the author information from the file `_data/authors.yml`{: .filepath } is that the page will have the meta tag `twitter:creator`, which enriches the [Twitter Cards](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started#card-and-content-attribution) and is good for SEO.
-{: .prompt-info }
+> {: .prompt-info }
 
 ## Table of Contents
 
@@ -152,7 +165,7 @@ Starting from _Chirpy v5.0.0_, `height` and `width` support abbreviations (`heig
 By default, the image is centered, but you can specify the position by using one of the classes `normal`, `left`, and `right`.
 
 > Once the position is specified, the image caption should not be added.
-{: .prompt-warning }
+> {: .prompt-warning }
 
 - **Normal position**
 
@@ -313,7 +326,7 @@ key: value
 ````
 
 > The Jekyll tag `{% highlight %}` is not compatible with this theme.
-{: .prompt-danger }
+> {: .prompt-danger }
 
 #### Line Number
 
