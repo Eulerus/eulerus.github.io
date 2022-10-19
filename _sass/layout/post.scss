@@ -314,6 +314,7 @@ nav[data-toggle=toc] {
 } /* .share-wrapper */
 
 .share-label {
+  /* display: none; */
   @include label(inherit, 400, inherit);
 
   &::after {
