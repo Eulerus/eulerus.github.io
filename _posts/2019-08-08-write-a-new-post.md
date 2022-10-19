@@ -1,9 +1,10 @@
 ---
 title: Writing a New Post
-date: 2019-08-08 14:10:00 +0900
+date: 2019-08-18 14:10:00 +0900
 categories: [카테고리1, 카테고리2, 카테고리3]
 tags: [한글태그길게써보자어디까지써지나더길게더길게쭉쭈욱쭉쭉]
 render_with_liquid: false
+math: true
 ---
 
 This post will guide you how to write a post on _Chirpy_ theme. Even if you have previous experience with Jekyll, this article is worth reading, because many features require specific variables to be set.
