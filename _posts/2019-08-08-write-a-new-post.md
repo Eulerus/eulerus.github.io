@@ -2,7 +2,7 @@
 title: Writing a New Post
 date: 2019-08-08 14:10:00 +0900
 categories: [Blogging, Tutorial]
-tags: [writing]
+tags: [한글태그]
 render_with_liquid: false
 ---
 
