@@ -252,6 +252,7 @@ nav[data-toggle=toc] {
 }
 
 .share-wrapper {
+  margin-left: auto;
   vertical-align: middle;
   user-select: none;
 
@@ -323,6 +324,7 @@ nav[data-toggle=toc] {
 }
 
 .license-wrapper {
+  display: none;
   line-height: 1.2rem;
 
   > a {
