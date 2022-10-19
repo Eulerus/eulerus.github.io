@@ -32,7 +32,7 @@ body {
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: 'Pretendard-Regular', 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
   line-height: 1.75;
 }
 
@@ -391,6 +391,7 @@ img[data-src] {
 /* --- post --- */
 
 .post {
+  font-family: 'Pretendard-Regular';
   h1 {
     margin-top: 3rem;
     margin-bottom: 1.5rem;

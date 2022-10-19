@@ -4,7 +4,6 @@ date: 2019-08-08 14:10:00 +0900
 categories: [Blogging, Tutorial]
 tags: [writing]
 render_with_liquid: false
-math: ture
 ---
 
 This post will guide you how to write a post on _Chirpy_ theme. Even if you have previous experience with Jekyll, this article is worth reading, because many features require specific variables to be set.
