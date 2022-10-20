@@ -105,7 +105,7 @@ blockquote {
     }
 
     > div {
-      max-width: calc(100% - 2rem);
+      // max-width: calc(100% - 2rem);
 
       > :last-child {
         margin-bottom: 0;
@@ -447,6 +447,8 @@ img[data-src] {
   font-size: 1.08rem;
   margin-top: 2rem;
   overflow-wrap: break-word;
+  
+  // p {margin-bottom: 0rem;}
 
   a {
     &:not(.img-link) {
